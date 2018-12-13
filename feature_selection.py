@@ -49,7 +49,7 @@ class Sequential_Feature_Selector():
             pipe = Pipeline([('feature_selection', feature_selector), ('classifier', classifier)])
             param_grid=Sequential_Feature_Selector.param_grid
             # n_jobs = -1,
-            grid = GridSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score, iid=False, refit=True)
+            grid = GridSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score, iid=False, refit=True,return_train_score=True)
             grid.fit(features, labels)
             # if grid.best_score_ > best_score:
             #     best_score = grid.best_score_

@@ -5,15 +5,15 @@ import pywt
 import os
 
 class Feature_Extraction:
-    list_extacion_methode =["Discrete Wavelet Transformation(DWT)","Wavelet Packet(WP)",
-                            "Hilbert-Huang Transform(HHT)"]
-    list_feature =["energy","entropy","mean","standard deviation","kurtosis","skewness"]
-
+    list_extacion_methode =["Discrete Wavelet Transformation(DWT)","Wavelet Packet(WP)"]
+    list_features =["energy","shanon_entropy","mean","standard deviation","kurtosis","skewness"]
+    # list_features=["RMS","Log-energy entropy","Interquartile range","Form factor","Crest-factor"]
     def __init__(self,project_name,data_name,transformation_name,transformation_level):
 
         self.project_name =project_name
         self.transformation_name = transformation_name
         self.transformation_level = transformation_level
+        self.test_data_name = data_name
         self.raw_data=Feature_Extraction.load_data(data_name)
         self.features,self.labels,self.features_and_labels = self.features_extraction()
         self.output_path ="Result_Daten\\"+project_name
@@ -37,9 +37,10 @@ class Feature_Extraction:
         if not isExists:
             os.makedirs(path)
 
-        output_name ="FE_after_"+self.transformation_name+".csv"
+        output_name ="FE_"+self.transformation_name+"("+self.test_data_name+")"+".csv"
         path=path+"\\"+output_name
         output_data.to_csv(path,index=False)
+        return path
 
     def features_extraction(self):
         feature_name_list =[]
@@ -84,7 +85,7 @@ class Calculate_Feature:
         return energy_array
 
     @staticmethod
-    def feature_entropy(coeff):
+    def feature_shanon_entropy(coeff):
         ent_array = []
         for m in range(0, coeff.shape[0]):
 
@@ -121,13 +122,25 @@ class Calculate_Feature:
         return std_array
 
     @staticmethod
+    def feature_RMS(coeff):
+        RMS_array = []
+        for m in range(0, coeff.shape[0]):
+            coeff_list = coeff[m, :]
+            coeff_list = coeff_list[~np.isnan(coeff_list)]
+
+
+            RMS_temp = ((np.square(coeff_list)).mean())**0.5
+            RMS_array.append(RMS_temp)
+        return RMS_array
+
+
+    @staticmethod
     def feature_kurtosis(coeff):
         kur_array = []
         for m in range(0, coeff.shape[0]):
 
             coeff_list = coeff[m, :]
             coeff_list = coeff_list[~np.isnan(coeff_list)]
-
             kur_temp = stats.kurtosis(coeff_list)
             kur_array.append(kur_temp)
         return kur_array
@@ -147,12 +160,13 @@ class Calculate_Feature:
     @staticmethod
     def feature_extraction_singe_instance(coeff):
         feature_energy =Calculate_Feature.feature_energy(coeff)
-        feature_ent =Calculate_Feature.feature_entropy(coeff)
+        feature_shanon_ent =Calculate_Feature.feature_shanon_entropy(coeff)
         feature_mean =Calculate_Feature.feature_mean(coeff)
         feature_std =Calculate_Feature.feature_standard_deviation(coeff)
         feature_kur =Calculate_Feature.feature_kurtosis(coeff)
         feature_ske =Calculate_Feature.feature_skewness(coeff)
-        feature_single_instance =feature_energy+feature_ent+feature_mean+feature_std+feature_kur+feature_ske
+        feature_rms=Calculate_Feature.feature_RMS(coeff)
+        feature_single_instance =feature_energy+feature_shanon_ent+feature_mean+feature_std+feature_rms+feature_kur+feature_ske
         return feature_single_instance
 
 class Wavelet_Packet:
@@ -191,9 +205,9 @@ class Discrete_Wavelet_Transformation:
         coeff = np.array(coeff)
         return coeff
 
-
+#
 # test = Feature_Extraction(project_name="test",data_name="TestData_1700.csv",
-#                           transformation_name="DWT",transformation_level =4)
+#                           transformation_name="WP",transformation_level =4)
 # print(test.features)
 # print(test.features_and_labels)
 # test.wirte_to_csv(test.features_and_labels)
