@@ -8,15 +8,15 @@ class Feature_Extraction:
     list_extacion_methode =["Discrete Wavelet Transformation(DWT)","Wavelet Packet(WP)"]
     list_features =["energy","shanon_entropy","mean","standard deviation","kurtosis","skewness"]
     # list_features=["RMS","Log-energy entropy","Interquartile range","Form factor","Crest-factor"]
-    def __init__(self,project_name,data_name,transformation_name,transformation_level):
+    def __init__(self,test_name,data_name,transformation_name,transformation_level):
 
-        self.project_name =project_name
+        self.test_name =test_name
         self.transformation_name = transformation_name
         self.transformation_level = transformation_level
         self.test_data_name = data_name
         self.raw_data=Feature_Extraction.load_data(data_name)
         self.features,self.labels,self.features_and_labels = self.features_extraction()
-        self.output_path ="Result_Daten\\"+project_name
+        self.output_path=self.wirte_to_csv(self.features_and_labels)
 
     @staticmethod
     def load_data(data_name):
@@ -31,16 +31,15 @@ class Feature_Extraction:
         isExists = os.path.exists("Result_Daten")
         if not isExists:
             os.makedirs("Result_Daten")
-
-        path = self.output_path
-        isExists = os.path.exists(path)
+        output_path = "Result_Daten\\" +self.test_name
+        isExists = os.path.exists(output_path)
         if not isExists:
-            os.makedirs(path)
+            os.makedirs(output_path)
 
         output_name ="FE_"+self.transformation_name+"("+self.test_data_name+")"+".csv"
-        path=path+"\\"+output_name
-        output_data.to_csv(path,index=False)
-        return path
+        output_path=output_path+"\\"+output_name
+        output_data.to_csv(output_path,index=False)
+        return output_path
 
     def features_extraction(self):
         feature_name_list =[]
@@ -206,8 +205,7 @@ class Discrete_Wavelet_Transformation:
         return coeff
 
 #
-# test = Feature_Extraction(project_name="test",data_name="TestData_1700.csv",
+# test = Feature_Extraction(test_name="test",data_name="TestData_1700.csv",
 #                           transformation_name="WP",transformation_level =4)
 # print(test.features)
 # print(test.features_and_labels)
-# test.wirte_to_csv(test.features_and_labels)

@@ -15,15 +15,15 @@ import feature_extraction
 class Feature_Selection:
     list_selection_methode =["Sequential Feature Selector"]
 
-    def __init__(self,project_name,features,labels,fs_methode_name,ml_algorithm_name,score):
+    def __init__(self,features,labels,fs_methode_name,ml_algorithm_name,score):
 
-        self.project_name =project_name
+        # self.test_name =test_name
         self.features =features
         self.labels =labels
         self.fs_methode_name =fs_methode_name
         self.ml_algorithm_name =ml_algorithm_name
         self.score =score
-        self.output_path ="Result_Daten\\"+project_name
+        # self.output_path ="Result_Daten\\"+test_name
 
 
 
@@ -32,9 +32,9 @@ class Sequential_Feature_Selector():
                                         "Sequential Forward Floating Selection(SFFS)",
                                         "Sequential Backward Floating Selection(SBFS)"]
     list_parameter = ["estimator", "k_features", "forward", "floating", "scoring", "cv"]
-    param_grid = {'feature_selection__k_features': np.arange(1, 3, 1, dtype=int).tolist(),
-                 #  'feature_selection__forward':[True,False],
-                 # "feature_selection__floating":[True,False],
+    param_grid = {"feature_selection__k_features": np.arange(1, 20, 1, dtype=int).tolist(),
+                  "feature_selection__forward":[True,False],
+                 "feature_selection__floating":[True,False],
                   }
 
     @staticmethod
@@ -46,10 +46,12 @@ class Sequential_Feature_Selector():
         # for k in np.arange(1, 2, 1, dtype=int):
         #     classifier = KNeighborsClassifier(n_neighbors=k)
             feature_selector = SequentialFeatureSelector(classifier)
-            pipe = Pipeline([('feature_selection', feature_selector), ('classifier', classifier)])
+            pipe = Pipeline([("feature_selection", feature_selector), ("classifier", classifier)])
             param_grid=Sequential_Feature_Selector.param_grid
             # n_jobs = -1,
-            grid = GridSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score, iid=False, refit=True,return_train_score=True)
+            grid = GridSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score,
+                                # n_jobs=-1,
+                                iid=False, refit=True,return_train_score=True)
             grid.fit(features, labels)
             # if grid.best_score_ > best_score:
             #     best_score = grid.best_score_

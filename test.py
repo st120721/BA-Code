@@ -1,5 +1,2 @@
-a = {'x': 1, 'z': 3 }
-b = {'y': 2, 'z': 4 }
-c={}
-a.update(b)
-print()
+import pandas as pd
+print(str([1,1]))
