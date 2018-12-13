@@ -37,7 +37,7 @@ class Feature_Extraction:
         if not isExists:
             os.makedirs(path)
 
-        output_name ="FE_After_"+self.transformation_name+".csv"
+        output_name ="FE_after_"+self.transformation_name+".csv"
         path=path+"\\"+output_name
         output_data.to_csv(path,index=False)
 
@@ -191,9 +191,9 @@ class Discrete_Wavelet_Transformation:
         coeff = np.array(coeff)
         return coeff
 
-#
+
 # test = Feature_Extraction(project_name="test",data_name="TestData_1700.csv",
-#                           transformation_name="WP",transformation_level =4)
+#                           transformation_name="DWT",transformation_level =4)
 # print(test.features)
 # print(test.features_and_labels)
 # test.wirte_to_csv(test.features_and_labels)

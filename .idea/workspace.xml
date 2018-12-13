@@ -21,51 +21,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="7" />
+          <entry key="csv" value="8" />
           <entry key="md" value="2" />
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="14" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="py" value="4598" />
+          <entry key="py" value="5696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="4598" />
+          <entry key="Python" value="5696" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+            <state relative-caret-position="-3199">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
-                <marker date="1544636619469" expanded="true" signature="2661:2663" ph="..." />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1544663199832" expanded="true" signature="2661:2663" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_selection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="74" selection-start-line="74" selection-start-column="2" selection-end-line="79" selection-end-column="87" />
+            <state relative-caret-position="650">
+              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -81,17 +83,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ml_algoritms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1005">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#1788#2006#0" />
+                <element signature="e#655#1653#0" />
                 <element signature="e#2229#2348#0" />
                 <element signature="e#2370#2410#0" />
-                <marker date="1544654522978" expanded="true" signature="1171:1180" ph="..." />
-                <marker date="1544654522978" expanded="true" signature="2023:2069" ph="..." />
-                <marker date="1544654522978" expanded="true" signature="2023:2071" ph="..." />
+                <marker date="1544664393247" expanded="true" signature="4447:4456" ph="..." />
+                <marker date="1544664393247" expanded="true" signature="5415:5461" ph="..." />
+                <marker date="1544664393247" expanded="true" signature="5415:5463" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/test/FS_with_sfs.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/test/KNN_sfs_accuracy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4605">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -111,33 +136,6 @@
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/sklearn/externals/joblib/parallel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="224" selection-start-line="224" selection-end-line="224" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/sklearn/model_selection/_validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="513" selection-start-line="513" selection-end-line="513" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/sklearn/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="212" selection-start-line="212" selection-end-line="212" />
             </state>
           </provider>
         </entry>
@@ -172,10 +170,11 @@
         <option value="$PROJECT_DIR$/Feature_Selection.py" />
         <option value="$PROJECT_DIR$/Feature_Extraction.py" />
         <option value="$PROJECT_DIR$/ML.py" />
-        <option value="$PROJECT_DIR$/feature_extraction.py" />
         <option value="$PROJECT_DIR$/score.py" />
-        <option value="$PROJECT_DIR$/ml_algoritms.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/feature_extraction.py" />
         <option value="$PROJECT_DIR$/feature_selection.py" />
+        <option value="$PROJECT_DIR$/ml_algoritms.py" />
       </list>
     </option>
   </component>
@@ -204,6 +203,17 @@
               <item name="BA code" type="462c0819:PsiDirectoryNode" />
               <item name="Raw_Daten" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BA code" type="462c0819:PsiDirectoryNode" />
+              <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BA code" type="462c0819:PsiDirectoryNode" />
+              <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.feature_selection">
+  <component name="RunManager" selected="Python.ml_algoritms">
     <configuration name="Feature_Extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BA code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -316,17 +326,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BA code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Feature_Extraction" />
       <item itemvalue="Python.ml_algoritms" />
       <item itemvalue="Python.feature_extraction" />
       <item itemvalue="Python.feature_selection" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.feature_selection" />
         <item itemvalue="Python.ml_algoritms" />
         <item itemvalue="Python.feature_extraction" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.feature_selection" />
         <item itemvalue="Python.Feature_Extraction" />
       </list>
     </recent_temporary>
@@ -352,7 +385,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32739726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -372,16 +405,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/feature_extraction.py</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Raw_Daten/Result_Daten.py" />
     <entry file="file://$PROJECT_DIR$/Result_Daten/test/Features_Extraction_After_WP.csv" />
@@ -400,14 +423,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/test/FE_After_WP.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/test/FE_after_WP.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/test/FE_After_DWT.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/test/FE_after_DWT.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/pandas/io/parsers.py">
@@ -455,6 +478,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -463,48 +493,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
-          <folding>
-            <marker date="1544636619469" expanded="true" signature="2661:2663" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/test/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/score.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/test/FS_with_sfs.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/test/KNN_sfs_accuracy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4605">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ml_algoritms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="1005">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1788#2006#0" />
+            <element signature="e#655#1653#0" />
             <element signature="e#2229#2348#0" />
             <element signature="e#2370#2410#0" />
-            <marker date="1544654522978" expanded="true" signature="1171:1180" ph="..." />
-            <marker date="1544654522978" expanded="true" signature="2023:2069" ph="..." />
-            <marker date="1544654522978" expanded="true" signature="2023:2071" ph="..." />
+            <marker date="1544664393247" expanded="true" signature="4447:4456" ph="..." />
+            <marker date="1544664393247" expanded="true" signature="5415:5461" ph="..." />
+            <marker date="1544664393247" expanded="true" signature="5415:5463" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="74" selection-start-line="74" selection-start-column="2" selection-end-line="79" selection-end-column="87" />
+        <state relative-caret-position="650">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3199">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1544663199832" expanded="true" signature="2661:2663" ph="..." />
           </folding>
         </state>
       </provider>
