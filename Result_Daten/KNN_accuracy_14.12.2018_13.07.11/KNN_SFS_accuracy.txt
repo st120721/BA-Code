@@ -1,0 +1,18 @@
+KNN_accuracy_14.12.2018_13.07.11
+start time: 14.12.2018-13:07:24
+end time: 14.12.2018-13:38:30
+duration: 0:31:06.230064
+score: accuracy
+score: 0.9188235294117648
+parameter of SFS: {'feature_selection__k_features': 6}
+n neighbors: [1]
+index of selected features: (0, 3, 24, 64, 78, 104)
+estimator: Pipeline(memory=None,
+     steps=[('feature_selection', SequentialFeatureSelector(clone_estimator=True, cv=5,
+             estimator=KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=None, n_neighbors=1, p=2,
+           weights='uniform'),
+             floating=Fals...ki',
+           metric_params=None, n_jobs=None, n_neighbors=1, p=2,
+           weights='uniform'))])
+

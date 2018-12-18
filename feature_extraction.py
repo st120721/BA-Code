@@ -6,18 +6,18 @@ import os
 
 class Feature_Extraction:
     list_extacion_methode =["Discrete Wavelet Transformation(DWT)","Wavelet Packet(WP)"]
-    list_features =["energy","shanon_entropy","mean","standard deviation","kurtosis","skewness"]
-    # list_features=["RMS","Log-energy entropy","Interquartile range","Form factor","Crest-factor"]
-    def __init__(self,test_name,data_name,transformation_name,transformation_level):
-
-        self.test_name =test_name
+    list_features =["energy","shanon_entropy","mean","standard deviation","RMS","kurtosis","skewness"]
+    # list_features=["Log-energy entropy","Interquartile range","Form factor","Crest-factor"]
+    def __init__(self,test_idx,data_name,transformation_name,transformation_level):
+        print("start FE")
+        self.test_idx =test_idx
         self.transformation_name = transformation_name
         self.transformation_level = transformation_level
         self.test_data_name = data_name
         self.raw_data=Feature_Extraction.load_data(data_name)
         self.features,self.labels,self.features_and_labels = self.features_extraction()
         self.output_path=self.wirte_to_csv(self.features_and_labels)
-
+        print("end FE")
     @staticmethod
     def load_data(data_name):
         path ="Raw_Daten\\"+data_name
@@ -31,7 +31,7 @@ class Feature_Extraction:
         isExists = os.path.exists("Result_Daten")
         if not isExists:
             os.makedirs("Result_Daten")
-        output_path = "Result_Daten\\" +self.test_name
+        output_path = "Result_Daten\\" +self.test_idx
         isExists = os.path.exists(output_path)
         if not isExists:
             os.makedirs(output_path)
@@ -205,7 +205,7 @@ class Discrete_Wavelet_Transformation:
         return coeff
 
 #
-# test = Feature_Extraction(test_name="test",data_name="TestData_1700.csv",
+# test = Feature_Extraction(test_idx="test",data_name="TestData_1700.csv",
 #                           transformation_name="WP",transformation_level =4)
 # print(test.features)
 # print(test.features_and_labels)

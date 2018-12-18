@@ -2,8 +2,9 @@ import numpy as  np
 import os
 import  pandas as pd
 from mlxtend.feature_selection import SequentialFeatureSelector
+from sklearn.metrics import make_scorer, recall_score
 from sklearn.pipeline import Pipeline
-from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import GridSearchCV,RandomizedSearchCV
 from sklearn import preprocessing
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
@@ -17,14 +18,13 @@ class Feature_Selection:
 
     def __init__(self,features,labels,fs_methode_name,ml_algorithm_name,score):
 
-        # self.test_name =test_name
+        # self.test_idx =test_idx
         self.features =features
         self.labels =labels
         self.fs_methode_name =fs_methode_name
         self.ml_algorithm_name =ml_algorithm_name
         self.score =score
-        # self.output_path ="Result_Daten\\"+test_name
-
+        # self.output_path ="Result_Daten\\"+test_idx
 
 
 class Sequential_Feature_Selector():
@@ -32,9 +32,9 @@ class Sequential_Feature_Selector():
                                         "Sequential Forward Floating Selection(SFFS)",
                                         "Sequential Backward Floating Selection(SBFS)"]
     list_parameter = ["estimator", "k_features", "forward", "floating", "scoring", "cv"]
-    param_grid = {"feature_selection__k_features": np.arange(1, 20, 1, dtype=int).tolist(),
-                  "feature_selection__forward":[True,False],
-                 "feature_selection__floating":[True,False],
+    param_grid = {"feature_selection__k_features": np.arange(1, 10, 1, dtype=int).tolist(),
+                 #  "feature_selection__forward":[True,False],
+                 # "feature_selection__floating":[True,False],
                   }
 
     @staticmethod
@@ -49,9 +49,15 @@ class Sequential_Feature_Selector():
             pipe = Pipeline([("feature_selection", feature_selector), ("classifier", classifier)])
             param_grid=Sequential_Feature_Selector.param_grid
             # n_jobs = -1,
+
+            recall_macro = make_scorer(recall_score, average="macro")
+            score={"accuracy":"accuracy","recall_macro":recall_macro}
+            # grid =RandomizedSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score,
+            #                      n_jobs=-1,
+            #                     iid=False, refit="recall_macro",return_train_score=True)
             grid = GridSearchCV(pipe, cv=5, param_grid=param_grid, scoring=score,
-                                # n_jobs=-1,
-                                iid=False, refit=True,return_train_score=True)
+                                 n_jobs=-1,
+                                iid=False, refit="accuracy",return_train_score=True)
             grid.fit(features, labels)
             # if grid.best_score_ > best_score:
             #     best_score = grid.best_score_
