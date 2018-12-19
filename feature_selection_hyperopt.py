@@ -19,5 +19,5 @@ class Sequential_Feature_Selector():
         elif forward == True and floating == True:
             sfs = "FSFS"
         elif forward == False and floating == True:
-            sfs = "FBFS"
+            sfs = "FSBS"
         return sfs

@@ -1,0 +1,72 @@
+time start: 2018-12-19 05:35:06.692467
+time end: 2018-12-19 05:35:38.008724
+duration: 0:00:31.316257
+loops: 10
+self.scoring: accuracy
+best_score: 0.9666666666666668
+sfs_type: SFS
+num_features: 2
+selected_features_idx: (2, 3)
+kernel: poly
+C: 11.478229760063279
+gamma: 6.381853855802522
+time start: 2018-12-19 05:37:11.548046
+time end: 2018-12-19 05:37:42.101340
+duration: 0:00:30.553294
+loops: 10
+self.scoring: accuracy
+best_score: 0.9866666666666667
+sfs_type: SFS
+num_features: 2
+selected_features_idx: (2, 3)
+kernel: rbf
+C: 19.83622913996284
+gamma: 14.386640038578713
+time start: 2018-12-19 05:42:40.401548
+time end: 2018-12-19 05:42:53.670083
+duration: 0:00:13.268535
+loops: 10
+self.scoring: accuracy
+best_score: 0.9800000000000001
+sfs_type: SBS
+num_features: 2
+selected_features_idx: (2, 3)
+kernel: rbf
+C: 15.011844115133881
+gamma: 19.95777454506953
+time start: 2018-12-19 05:50:01.300157
+time end: 2018-12-19 05:50:41.680181
+duration: 0:00:40.380024
+loops: 10
+self.scoring: accuracy
+best_score: 0.9600000000000002
+sfs_type: SBS
+num_features: 2
+selected_features_idx: (0, 2)
+kernel: linear
+C: 18.265631406233766
+gamma: 19.393304829860618
+time start: 2018-12-19 05:51:55.190909
+time end: 2018-12-19 05:52:05.118373
+duration: 0:00:09.927464
+loops: 10
+self.scoring: accuracy
+best_score: 0.9600000000000002
+sfs_type: SBS
+num_features: 2
+selected_features_idx: (0, 2)
+kernel: linear
+C: 19.387142240262026
+gamma: 15.0056653052175
+time start: 2018-12-19 05:56:33.811992
+time end: 2018-12-19 05:56:57.485717
+duration: 0:00:23.673725
+loops: 10
+self.scoring: accuracy
+best_score: 0.9866666666666667
+sfs_type: FSBS
+num_features: 2
+selected_features_idx: (2, 3)
+kernel: rbf
+C: 16.74628117653913
+gamma: 11.407374653054198

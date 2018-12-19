@@ -78,9 +78,7 @@ class KNN():
         features =self.features
         labels=self.labels
 
-        iris = datasets.load_iris()
-        features = iris.data
-        labels = iris.target
+
 
         # File to save results
         folder_name ="Result_Daten\\" + self.test_idx
@@ -105,7 +103,8 @@ class KNN():
         parma_space = dict(sfs_param_space, **knn_param_space)
 
         # loop
-        temp_loop=0
+
+
         result={
         "time start":  d.datetime.now(),
         "time end":None,
@@ -118,12 +117,11 @@ class KNN():
         "selected_features_idx" : [],
         "best_n_neighbors" : 0
         }
-
+        temp_loop = 0
         def tuning_parameter_one_loop(params):
 
-
-
-            temp_loop = 1
+            nonlocal  temp_loop
+            temp_loop = temp_loop+1
             print("start tunning param")
             print(temp_loop)
 
@@ -180,6 +178,7 @@ class KNN():
 
 
         trials = Trials()
+
         fmin(fn=scoring, space=parma_space, algo=tpe.suggest,
                     max_evals=self.loops,
                     trials=trials)
@@ -198,10 +197,9 @@ class Scoring():
     recall_macro = make_scorer(recall_score, average="macro")
 
 
-path ="Result_Daten\\KNN_accuracy_14.12.2018_13.00.00\\"+"FE_WP(TestData_1700.csv).csv"
-data =pd.read_csv(path)
-features = data.drop(["label"],axis=1)
-labels = pd.DataFrame(data.ix[:, data.shape[1] - 1]).values.ravel()
+iris = datasets.load_iris()
+features = iris.data
+labels = iris.target
 ml_test =KNN(test_idx="test",features=features,labels=labels,scoring="accuracy")
 
 

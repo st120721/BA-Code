@@ -94,10 +94,10 @@ def hyperopt_train_test(params):
 
 
         writer = csv.writer(f)
-        writer.writerow([foward, floating, k_features, params['n_neighbors']])
+        writer.writerow([foward, floating, list(sfs.k_feature_idx_), params['n_neighbors']])
 
     score = sfs.k_score_
-
+    print(sfs.k_feature_idx_.__class__)
     print(score)
 
 
@@ -105,6 +105,7 @@ def hyperopt_train_test(params):
     return score,sfs.k_feature_idx_,k_features,n_neighbors
 
 def score(params):
+    print(params)
     global best_sfs_idx, best_k, best_n,best_score
     acc,idx,k,n = hyperopt_train_test(params)
     if best_score < acc:
