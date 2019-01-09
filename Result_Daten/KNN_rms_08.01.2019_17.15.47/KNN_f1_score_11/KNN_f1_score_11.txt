@@ -1,0 +1,10 @@
+time start: 2019-01-08 17:19:22.080759
+time end: 2019-01-08 17:19:27.636901
+duration: 0:00:05.556142
+loops: 20
+self.scoring: f1_score_11
+best_score: 0.8571378352829966
+sfs_type: SFS
+num_features: 7
+selected_features_idx: (0, 1, 2, 3, 5, 6, 7)
+n_neighbors: 3

@@ -12,41 +12,48 @@
     <session id="2009089378">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="70" />
-          <entry key="md" value="3" />
-          <entry key="py" value="81" />
-          <entry key="txt" value="25" />
+          <entry key="csv" value="105" />
+          <entry key="md" value="4" />
+          <entry key="py" value="143" />
+          <entry key="pyi" value="1" />
+          <entry key="txt" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="81" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="177" />
+          <entry key="Python" value="143" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="42" />
-          <entry key="py" value="12401" />
+          <entry key="dummy" value="72" />
+          <entry key="py" value="21711" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="12401" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="21711" />
         </counts>
       </usages-collector>
     </session>
@@ -54,22 +61,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_selection_hyperopt.py">
+        <entry file="file://$PROJECT_DIR$/main_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="1560">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml_algorithms_v3.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_selection_hyperopt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="54" column="79" lean-forward="true" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="79" />
+            <state relative-caret-position="117">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/machine_learning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2873">
+              <caret line="384" column="13" lean-forward="true" selection-start-line="384" selection-start-column="13" selection-end-line="384" selection-end-column="13" />
+              <folding>
+                <element signature="e#304#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/selected_features_accuracy.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml_algoritms_hyperopt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -78,59 +111,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/test/RF_accuracy_tunning_parameter_info.csv">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/KNN_accuracy_tunning_parameter_info.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/tset/SVM_accuracy.txt">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/FE_WP(TestData_1700.csv).csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/KNN_accuracy.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/tset/SVM_accuracy_tunning_parameter_info.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/tset/selected_features_accuracy.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/tset/KNN_accuracy_tunning_parameter_info.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="52">
+              <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/tset/KNN_accuracy.txt">
+        <entry file="file://$PROJECT_DIR$/feature_extraction_rms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="182">
+              <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+              <folding>
+                <element signature="e#121#130#0" expanded="true" />
+                <marker date="1547039699972" expanded="true" signature="2446:2728" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.00.00/KNN_SFS_accuracy.txt">
+        <entry file="file://$PROJECT_DIR$/feature_extraction_wavelet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="47" column="56" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="56" />
+            <state relative-caret-position="-1846">
+              <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+              <folding>
+                <element signature="e#86#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +182,11 @@
       <find>algoritms</find>
       <find>algoritmus_dict</find>
       <find>print</find>
+      <find>=</find>
+      <find>str(scoring</find>
+      <find>test_idx</find>
+      <find>coeff</find>
+      <find>feature_single_instance</find>
     </findStrings>
     <replaceStrings>
       <replace>test_name</replace>
@@ -175,12 +199,15 @@
       <replace>test_idx</replace>
       <replace>sfs_type</replace>
       <replace>temp_loop</replace>
-      <replace>folder_path</replace>
       <replace>self</replace>
       <replace>self.loops</replace>
       <replace>algorithms</replace>
       <replace>Algorithms</replace>
       <replace>algorithms_dict</replace>
+      <replace>algoritms</replace>
+      <replace>folder_path</replace>
+      <replace>wert</replace>
+      <replace>features_single_instance</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -196,28 +223,36 @@
         <option value="$PROJECT_DIR$/Feature_Extraction.py" />
         <option value="$PROJECT_DIR$/ML.py" />
         <option value="$PROJECT_DIR$/score.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/feature_extraction.py" />
         <option value="$PROJECT_DIR$/feature_selection.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ml_algoritms.py" />
-        <option value="$PROJECT_DIR$/main_hyperopt.py" />
         <option value="$PROJECT_DIR$/ml_algoritmus_hyperopt.py" />
         <option value="$PROJECT_DIR$/mL_algorithmus_hyperopt2.py" />
-        <option value="$PROJECT_DIR$/test_hyperopt.py" />
-        <option value="$PROJECT_DIR$/ml_algoritms_hyperopt.py" />
-        <option value="$PROJECT_DIR$/test11.py" />
         <option value="$PROJECT_DIR$/ml_algoritms_hyperopt2.py" />
-        <option value="$PROJECT_DIR$/ml.py" />
         <option value="$PROJECT_DIR$/feature_selection_hyperopt.py" />
+        <option value="$PROJECT_DIR$/test11.py" />
+        <option value="$PROJECT_DIR$/test_hyperopt.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/preprocessing_rms.py" />
+        <option value="$PROJECT_DIR$/main_hyperopt.py" />
+        <option value="$PROJECT_DIR$/ml_v3.py" />
+        <option value="$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_11/KNN_recall_11.txt" />
+        <option value="$PROJECT_DIR$/feature_extraction.py" />
+        <option value="$PROJECT_DIR$/ml_algoritms_hyperopt.py" />
         <option value="$PROJECT_DIR$/ml_algorithms_v3.py" />
+        <option value="$PROJECT_DIR$/ml_algorithms.py" />
+        <option value="$PROJECT_DIR$/ml.py" />
+        <option value="$PROJECT_DIR$/main_v2.py" />
+        <option value="$PROJECT_DIR$/feature_extraction_rms.py" />
+        <option value="$PROJECT_DIR$/feature_extraction_wavelet.py" />
+        <option value="$PROJECT_DIR$/machine_learning.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-2" />
-    <option name="y" value="-42" />
-    <option name="width" value="2734" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-22" />
+    <option name="width" value="2736" />
     <option name="height" value="1756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -236,19 +271,31 @@
             <path>
               <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
               <item name="BA code" type="462c0819:PsiDirectoryNode" />
+              <item name="Raw_Daten" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BA code" type="462c0819:PsiDirectoryNode" />
               <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
               <item name="BA code" type="462c0819:PsiDirectoryNode" />
               <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN_rms_08.01.2019_01.35.36" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
               <item name="BA code" type="462c0819:PsiDirectoryNode" />
               <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
-              <item name="tset" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN_wavelet_09.01.2019_11.15.33" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BA code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BA code" type="462c0819:PsiDirectoryNode" />
+              <item name="Result_Daten" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN_wavelet_09.01.2019_11.15.33" type="462c0819:PsiDirectoryNode" />
+              <item name="KNN_accuracy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +325,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ml_algorithms_v3">
+  <component name="RunManager" selected="Python.main_v2">
+    <configuration name="feature_extraction_rms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BA code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature_extraction_rms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature_extraction_wavelet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BA code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature_extraction_wavelet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_hyperopt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BA code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dandan\Desktop\BA code\main_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BA code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ml_algorithms_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BA code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,91 +422,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml_algorithms_v3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ml_algoritms_hyperopt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BA code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml_algoritms_hyperopt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ml_algoritmus_hyperopt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BA code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Dandan\Desktop\BA code\ml_algoritms_hyperopt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BA code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_hyperopt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BA code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_hyperopt.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dandan\Desktop\BA code\machine_learning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,19 +432,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_hyperopt" />
-      <item itemvalue="Python.test11" />
-      <item itemvalue="Python.ml_algoritmus_hyperopt" />
-      <item itemvalue="Python.ml_algoritms_hyperopt" />
       <item itemvalue="Python.ml_algorithms_v3" />
+      <item itemvalue="Python.main_hyperopt" />
+      <item itemvalue="Python.feature_extraction_rms" />
+      <item itemvalue="Python.main_v2" />
+      <item itemvalue="Python.feature_extraction_wavelet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_v2" />
+        <item itemvalue="Python.feature_extraction_wavelet" />
+        <item itemvalue="Python.feature_extraction_rms" />
+        <item itemvalue="Python.main_hyperopt" />
         <item itemvalue="Python.ml_algorithms_v3" />
-        <item itemvalue="Python.test11" />
-        <item itemvalue="Python.test_hyperopt" />
-        <item itemvalue="Python.ml_algoritms_hyperopt" />
-        <item itemvalue="Python.ml_algoritmus_hyperopt" />
       </list>
     </recent_temporary>
   </component>
@@ -424,301 +471,258 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.26832956" />
-      <window_info id="Structure" order="1" sideWeight="0.5010395" side_tool="true" weight="0.26832956" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49585062" visible="true" weight="0.23204838" />
+      <window_info id="Structure" order="1" sideWeight="0.5041494" side_tool="true" weight="0.22297809" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32784638" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34019205" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962208" visible="true" weight="0.35939643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32784638" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32921812" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32784638" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037795" side_tool="true" weight="0.34019205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" weight="0.32955405" />
       <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" x="0" y="0" width="295" height="685" id="Documentation" order="5" side_tool="true" weight="0.3356009" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/score.py" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_12.51.00/FE_WP(TestData_1700.csv).csv" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_14.12.2018_17.08.42/FE_WP(TestData_1700.csv).csv" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_17.12.2018_00.21.20/FS_features_SFS_make_scorer(recall_score, average=macro).csv" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_17.12.2018_00.21.20/KNN_SFS_make_scorer(recall_score, average=macro).txt" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_17.12.2018_00.21.20/KNN_SFS_make_scorer(recall_score, average=macro)_tunning_parameter_info.csv" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_17.12.2018_00.24.12/KNN_SFS_make_scorer(recall_score, average=macro).txt" />
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_make_scorer(recall_score, average=macro)_17.12.2018_00.24.12/KNN_SFS_make_scorer(recall_score, average=macro)_tunning_parameter_info.csv" />
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/sklearn/model_selection/_search.py">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_accuracy/selected_features_accuracy.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_accuracy/KNN_accuracy_tunning_parameter_info.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15964">
-          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        <state relative-caret-position="-780">
+          <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/pandas/core/frame.py">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_11/KNN_f1_score_11.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_12/KNN_f1_score_12.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_8/KNN_f1_score_8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_6/KNN_f1_score_6.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_4/KNN_f1_score_4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_2/KNN_f1_score_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_10.01.04/KNN_accuracy/KNN_accuracy_tunning_parameter_info.csv" />
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_10.01.04/KNN_accuracy/KNN_accuracy.txt" />
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_10.29.01/KNN_accuracy/KNN_accuracy.txt" />
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_01.41.08/KNN_accuracy/KNN_accuracy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_10.23.16/KNN_accuracy/KNN_accuracy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_01.41.08/KNN_accuracy/selected_features_accuracy.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_08.01.2019_01.41.08/KNN_accuracy/KNN_accuracy_tunning_parameter_info.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="3696" selection-start-line="3696" selection-end-line="3696" />
+        <state relative-caret-position="-364">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Raw_Daten/Testdata_1700(2).csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_1/KNN_f1_score_1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.39.06/FS_features_SFS_accuracy.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_precision_11/KNN_precision_11.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.39.06/FE_WP(TestData_1700(2).csv).csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_precision_13/KNN_precision_13.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.46.26/FE_WP(TestData_1700.csv).csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_precision_1/KNN_precision_1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.46.26/FS_features_SFS_accuracy.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_f1_score_10/KNN_f1_score_10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_3/KNN_recall_3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_9/KNN_recall_9.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_13/KNN_recall_13.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/FE_RMS_(TestData_1700.csv).csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_17/KNN_recall_17.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_10.23.16/KNN_f1_score_8/KNN_f1_score_8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_10.23.16/KNN_f1_score_6/KNN_f1_score_6.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_10.23.16/KNN_f1_score_2/KNN_f1_score_2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_14/KNN_recall_14.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_12/KNN_recall_12.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_09.56.12/KNN_recall_11/KNN_recall_11.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29383" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/keras/utils/np_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="78">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.00.00/FS_features_SFS_accuracy.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_accuracy/KNN_accuracy.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.00.00/KNN_SFS_accuracy_tunning_parameter_info.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_precision_7/KNN_precision_7.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.39.06/KNN_SFS_accuracy.txt">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_precision_6/KNN_precision_6.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_17.12.2018_00.46.26/KNN_SFS_accuracy.txt">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_rms_08.01.2019_01.35.36/KNN_recall_12/KNN_recall_12.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.07.11/FE_WP(TestData_1700.csv).csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Raw_Daten/Testdata_1700.csv">
+    <entry file="file://$PROJECT_DIR$/ml_algoritms_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/sklearn/neighbors/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.07.11/FS_features_SFS_accuracy.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.07.11/KNN_SFS_accuracy_tunning_parameter_info.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="96" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.07.11/KNN_SFS_accuracy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="25" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.00.00/FE_WP(TestData_1700.csv).csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trials.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4113" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test11.py">
+    <entry file="file://$PROJECT_DIR$/../simulateData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml_algoritms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="64" column="29" selection-start-line="62" selection-start-column="8" selection-end-line="64" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#607#756#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_hyperopt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1248" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="6" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="365">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/46320635/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="4624" column="21" selection-start-line="4624" selection-start-column="17" selection-end-line="4624" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction_rms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#121#130#0" expanded="true" />
+            <marker date="1547039699972" expanded="true" signature="2446:2728" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/hyperopt/fmin.py">
+    <entry file="file://$PROJECT_DIR$/feature_selection_hyperopt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="117">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/envs/BA/Lib/site-packages/hyperopt/base.py">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/selected_features_accuracy.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/FE_WP(TestData_1700.csv).csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_extraction_wavelet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="839" selection-start-line="839" selection-end-line="839" />
+        <state relative-caret-position="-1846">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+          <folding>
+            <element signature="e#86#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml_algoritms_hyperopt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#5725#6262#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_hyperopt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1093">
-          <caret line="96" column="67" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
-          <folding>
-            <element signature="e#32#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection.py">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/KNN_accuracy.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="56" />
+        <state relative-caret-position="52">
+          <caret line="2" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_accuracy_14.12.2018_13.00.00/KNN_SFS_accuracy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/Result_Daten/tset/selected_features_accuracy.csv">
+    <entry file="file://$PROJECT_DIR$/Result_Daten/KNN_wavelet_09.01.2019_11.15.33/KNN_accuracy/KNN_accuracy_tunning_parameter_info.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/tset/KNN_accuracy.txt">
+    <entry file="file://$PROJECT_DIR$/machine_learning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/tset/SVM_accuracy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/test/RF_accuracy_tunning_parameter_info.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/tset/SVM_accuracy_tunning_parameter_info.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_selection_hyperopt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="2873">
+          <caret line="384" column="13" lean-forward="true" selection-start-line="384" selection-start-column="13" selection-end-line="384" selection-end-column="13" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/tset/selected_features_accuracy.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result_Daten/tset/KNN_accuracy_tunning_parameter_info.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml_algorithms_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="54" column="79" lean-forward="true" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#304#323#0" expanded="true" />
           </folding>
         </state>
       </provider>

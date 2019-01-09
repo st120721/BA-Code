@@ -1,24 +1,31 @@
-import pandas as pd
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation
+from keras.optimizers import SGD
 
-from keras.utils import np_utils
-from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from feature_extraction import Feature_Extraction
-from ml_algoritms import  NN
+# 生成虚拟数据
+import numpy as np
+x_train = np.random.random((1000, 20))
+y_train = keras.utils.to_categorical(np.random.randint(10, size=(1000, 1)), num_classes=10)
+x_test = np.random.random((100, 20))
+y_test = keras.utils.to_categorical(np.random.randint(10, size=(100, 1)), num_classes=10)
 
-path ="Result_Daten\\KNN_accuracy_14.12.2018_13.07.11\\"+"FS_features_SFS_accuracy.csv"
-path ="Result_Daten\\KNN_accuracy_14.12.2018_13.07.11\\"+"FE_WP(TestData_1700.csv).csv"
-features =pd.read_csv(path)
-features = features.drop(["label"],axis=1)
-features = preprocessing.scale(features)
-print (features.shape)
-path ="Result_Daten\\KNN_accuracy_14.12.2018_13.07.11\\"+"FE_WP(TestData_1700.csv).csv"
-labels =pd.read_csv(path)
-labels = pd.DataFrame(labels.ix[:, labels.shape[1] - 1])
-labels =labels-1
-print(labels.shape)
+model = Sequential()
+# Dense(64) 是一个具有 64 个隐藏神经元的全连接层。
+# 在第一层必须指定所期望的输入数据尺寸：
+# 在这里，是一个 20 维的向量。
+model.add(Dense(64, activation='relu', input_dim=20))
+model.add(Dropout(0.5))
+model.add(Dense(64, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(10, activation='softmax'))
 
-X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.3)
-y_train = np_utils.to_categorical(y_train, num_classes=17)
-y_test = np_utils.to_categorical(y_test, num_classes=17)
-NN().model(features=X_train,labels=y_train)
+sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+model.compile(loss='categorical_crossentropy',
+              optimizer=sgd,
+              metrics=['accuracy'])
+
+model.fit(x_train, y_train,
+          epochs=20,
+          batch_size=128)
+score = model.evaluate(x_test, y_test, batch_size=128)

@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import PCA, NMF
-import feature_extraction
+import feature_extraction_wavelet
 
 
 class Feature_Selection:

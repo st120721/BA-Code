@@ -4,8 +4,8 @@ import datetime as d
 from sklearn.metrics import make_scorer, recall_score
 from sklearn.model_selection import train_test_split
 
-from ml_algoritms import ML_Algoritms,Scroce
-from feature_extraction import Feature_Extraction
+from ml_algoritms_v1 import ML_Algoritms,Scroce
+from feature_extraction_wavelet import Feature_Extraction
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
         for clf in ["RF"]:
 
             test_idx=clf+"_"+str(score)+"_"+ str(d.datetime.now().strftime("%d.%m.%Y_%H.%M.%S"))
-            fe=Feature_Extraction(test_idx=test_idx, data_name=raw_data,
+            fe=Feature_Extraction(algoritms=clf, data_name=raw_data,
                                 transformation_name="WP",transformation_level =4)
             features=fe.features
             labels =fe.labels.values.ravel()

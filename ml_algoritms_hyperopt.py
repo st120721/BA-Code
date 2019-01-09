@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, cross_val_score
 from sklearn.decomposition import PCA, NMF
-import feature_extraction
+import feature_extraction_wavelet
 import feature_selection
 
 
@@ -63,7 +63,7 @@ class ML_Algoritms:
 class KNN():
     name = "KNN"
     k_parameter = np.arange(1, 10, 1, dtype=int)
-    parameters_grid = {'n_neighbors': hp.choice('n_neighbors', k_parameter.tolist())}
+    parameters_grid = {'n_neighbors': hp.choice('n_neighbors', k_parameter)}
 
     def __init__(self, test_idx, features, labels, scoring,loops=100):
         self.test_idx = test_idx

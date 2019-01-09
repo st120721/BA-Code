@@ -4,6 +4,7 @@ import  numpy as np
 from hyperopt import fmin, Trials, STATUS_OK, hp, tpe
 from mlxtend.feature_selection import SequentialFeatureSelector
 from sklearn import datasets, preprocessing
+from sklearn.metrics import make_scorer,f1_score,recall_score,precision_score,average_precision_score,roc_auc_score
 from sklearn.model_selection import cross_val_score
 from sklearn.neighbors import KNeighborsClassifier
 
@@ -18,7 +19,25 @@ with open('trials.csv',"x"and "a")as f:
     # Write the headers to the file
     writer.writerow(['loss', 'params', 'iteration', 'estimators', 'train_time'])
 
+scoring = {"accuracy": "accuracy",
+                   "average_precision_macro" : make_scorer(average_precision_score, average="macro"),
+                   "average_precision_micro" : make_scorer(average_precision_score, average="micro"),
+                   "f1_score_macro" : make_scorer(f1_score, average="macro"),
+                   "f1_score_micro": make_scorer(f1_score, average="micro"),
+                   "recall_macro" : make_scorer(recall_score, average="macro"),
+                   "recall_micro" : make_scorer(recall_score, average="micro"),
+                   "precision_macro" : make_scorer(precision_score, average="macro"),
+                   "precision_micro" : make_scorer(precision_score, average="micro"),
+                   }
+for i in range(1,18):
+            temp_dict ={"recall_"+str(i):make_scorer(recall_score, labels=[i], average=None),
+                        "precision_" + str(i): make_scorer(precision_score, labels=[i], average=None),
+                        "auc_"+str(i):make_scorer(roc_auc_score, labels=[i], average=None)
 
+                        }
+
+            scoring= dict(scoring, **(temp_dict))
+print(scoring)
 
 iris = datasets.load_iris()
 X = iris.data
@@ -41,7 +60,7 @@ knn_param_space = {
 
 }
 parm_space = dict(sfs_param_space,**knn_param_space)
-
+print(parm_space)
 # parm_space={'n_neighbors': hp.choice('n_neighbors', range(1, 50)),
 #             "k_features": hp.choice("k_features",np.arange(1,3,1,dtype=int).tolist())
 #             }
@@ -83,8 +102,19 @@ def hyperopt_train_test(params):
     print(floating)
     print(foward)
 
+    {"average_precision_macro": make_scorer(average_precision_score, average="macro"),
+    "average_precision_micro": make_scorer(average_precision_score, average="micro"),
+    "f1_score_macro": make_scorer(f1_score, average="macro"),
+    "f1_score_micro": make_scorer(f1_score, average="micro"),
+    "recall_macro": make_scorer(recall_score, average="macro"),
+    "recall_micro": make_scorer(recall_score, average="micro"),
+    "precision_macro": make_scorer(precision_score, average="macro"),
+    "precision_micro": make_scorer(precision_score, average="micro")}
+    average_precision_macro= make_scorer(average_precision_score, average="micro")
+    recall_16 = make_scorer(recall_score, labels=[2], average=None)
+    recall_macro = make_scorer(recall_score, average="macro")
     sfs = SequentialFeatureSelector(estimator=clf, k_features=k_features,
-                                    forward=foward,floating=floating,scoring='accuracy',
+                                    forward=foward,floating=floating,scoring=  make_scorer(f1_score, average="macro"),
                                     n_jobs=1,
                                     cv=5, )
     sfs.fit(X, y)
@@ -119,15 +149,8 @@ def score(params):
 
 trials = Trials()
 best = fmin(score, parm_space, algo=tpe.suggest,
-            max_evals = 10,
-             trials=trials)
+                max_evals = 10,
+                 trials=trials)
 
 
-
-print(best_score)
-print(best_sfs_idx)
-print(best_n)
-print(best_k)
 print(best)
-print(trials.results)
-print(trials.best_trial)
